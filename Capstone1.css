@@ -1,0 +1,59 @@
+#home1{
+	background-image: url(./img/home.jpg);
+}
+
+#home2{
+	background-image: url(./img/body.jpg);
+}
+
+#banner{
+	background-image: url(./img/backgroundBody.jpg);
+	background-size: cover;
+background-position: center;
+}
+#banner1{
+	background-color: #C8EAF5;
+	}
+#imghome{
+	width: 250px;
+	height: 250px;
+}
+#banner2{
+background-image: url(./img/background.jpg);
+background-size: cover;
+background-position: center;
+}
+
+#work{
+	background-color: #03045E;
+}
+#other{
+	color: #0A014F;
+}
+
+#experience{
+	color: #033F63;
+}
+#footerB{
+	width: 100%;
+	background-color: #00A6FB; 
+	height: 50px;
+}
+
+
+.hr{
+	background-color: white;
+}
+
+.hr1{
+	background-color: #A9F72A;
+}
+
+.fab{
+	font-size: 2rem;
+	color: white;
+}
+
+.gallerybody{
+	background-color: #9B91F2;
+}
