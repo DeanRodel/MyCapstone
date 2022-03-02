@@ -11,7 +11,7 @@
 	
 </head>
 <body id="home1">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+	<nav class="navbar navbar-expand-lg navbar-dark" id="rect" id="top">
 	  <a class="navbar-brand" href="#">Capstone1</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
 	    </ul>
 	    <form class="form-inline my-2 my-lg-0">
 	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+	      <button class="btn bg-info my-2 my-sm-0" type="submit">Search</button>
 	    </form>
 	  </div>
 	</nav>
@@ -39,50 +39,28 @@
 
 <div class="container d-flex align-items-around flex-wrap img-fluid" >
 	<div class="row pt-5" >
-		<div class="col-md-4 p-3 mr-3" id="banner">
+		<div class="col-md-4 p-3 mr-3 BorderRadius" id="banner">
 	<div class="my-4 mx-auto pt-3" style="width: 315px;">
 	<img src="./img/profile.jpg" class="rounded-circle border border-dark img-fluid">
 	</div>
 	<h2 class="text-center text-decoration-underline text-white">Dean Rodel Legada</h2>
-	<h3 class="text-center text-white pb-5">Front-End Web Developer</h3>
+	<h3 class="text-center text-white pb-5" id="h2">Front-End Web Developer</h3>
 	</div>
-	<div class="col-md-4 align-items-center p-3" id="banner">
-	<p class="text-justify justify-content-center mt-4 text-white">Hello, welcome to my profile. I was studying programming since I was in Senior High School until Second Year College. I have previous experience doing website design as well as making systems that belong to the backend developer.</p> 
+	<div class="col-md-4 align-items-center p-3 BorderRadius" id="banner">
+	<p class="text-justify justify-content-center mt-4 text-white" id="h3">Hello, welcome to my profile. I was studying programming since I was in Senior High School until Second Year College. I have previous experience doing website design as well as making systems that belong to the backend developer.</p> 
 
-	<p class="text-justify justify-content-center text-white">I also enjoy thinking of logical problems in terms of coding, taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always has a willingness to write elegant and efficient code, whether it be HTML, CSS or Bootstrap.</p>
+	<p class="text-justify justify-content-center text-white" id="h3">I also enjoy thinking of logical problems in terms of coding, taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always has a willingness to write elegant and efficient code, whether it be HTML, CSS or Bootstrap.</p>
 
-	<p class="text-justify justify-content-center text-white">Now, I want to pursue this kind of skills or career because I am happy in this field and I want to be a fully web developer when I finish this training provided by Zuitt.</p>
+	<p class="text-justify justify-content-center text-white" id="h3">Now, I want to pursue this kind of skills or career because I am happy in this field and I want to be a fully web developer when I finish this training provided by Zuitt.</p>
 
-	</div>
-	</div>
-</div>
-<hr class="mt-5 hr1">
-
-<div class="container" >
-<h3 class="text-center mt-5 pt-4" id="other">My Other Work Experience</h3>
-<div class="container d-flex flex-row flex-wrap align-items-center pb-3 mx-auto mb-4" id="banner1">
-	<div class=" mx-auto  text-center ">
-		<img src="./img/upwork1.png" class="justify-content-center img-fluid">	
-	</div>
-
-	<div class="col-md-4 text-center">
-		<h4 class="text-center" id="experience">Data Miner/ Marketer</h4>
-		<p class="text-justify " id="experience">
-		My past experience data mine/marketer. I worked here for 2 years and as a data miner, clients provide lots of lists every week, where we are collecting email adresses of each of the list. When done, we send the file back to the client
-
-	</p>	
-	</div>
-
-	<div class="col-md-4 text-center p-2">
-		<img src="./img/upwork3.png" class="img-fluid">	
 	</div>
 	</div>
 </div>
 
 <hr class="mt-5 hr1">
 
-<h4 class="text-center" id="experience">My Skills Includes</h4>
-<div class="container img-fluid border border-dark" id="home2">
+<h4 class="text-center fonts" id="experience">My Skills Includes</h4>
+<div class="container col-md-6 img-fluid border border-dark align-items-left BorderRadius" id="bgcolor">
 <div class="d-flex flex-row flex-wrap align-items-center justify-content-center mx-auto my-3" >
 
 	<div class="text-center text-wrap col-md-6 order-2">
@@ -92,12 +70,12 @@
 	</div>
 	<div class="text-center col-md-6">
 		<div class="order-1">			
-			<h6 class="text-justify text-center text-info">I started with HTML and CSS, since it's just markup language, not exactly a programming language. It's pretty easy after I get the hang of it. all need to do is identify a problem or task, analyze that problem/task, come up with initial solutions, and testing.</h6>
+			<h6 class="text-justify text-info" id="experience">I started with HTML and CSS, since it's just markup language, not exactly a programming language. It's pretty easy after I get the hang of it. all need to do is identify a problem or task, analyze that problem/task, come up with initial solutions, and testing.</h6>
 		</div>	
 	</div>
 </div>
-
-<div class="d-flex flex-row flex-wrap align-items-center justify-content-center mx-auto my-3" >
+ <hr >
+<div class="d-flex flex-row flex-wrap align-items-center justify-content-center mx-auto my-3 " >
 
 	<div class="text-center text-wrap col-md-6 order-1 order-md-1">
 				
@@ -106,7 +84,7 @@
 	</div>
 	<div class="text-center col-md-6 order-1 order-md-2">
 			
-			<h6 class="text-justify text-center text-info">As a creative Front-End Programmer, I do things or ways to boost my Creativity Such as:
+			<h6 class="text-justify text-info" id="experience">As a creative Front-End Programmer, I do things or ways to boost my Creativity Such as:
 				<ul type="1">
 					<li>Learning new programming language.</li>
 					<li>Never Stop testing new ideas.</li>
@@ -119,12 +97,43 @@
 
 </div>
 
+<div class="text-center mt-4">
+<button class="btn btn-info my-4 my-sm-0 "><a href="#top"><h4 id="other">Back to Top</h4></a></button></div>
+
+
+<hr class="mt-5 hr1">
+<div class="container" >
+<h3 class="text-center mt-5 pt-4 fonts" id="other">My Other Work Experience</h3>
+<div class="container d-flex flex-row flex-wrap align-items-center pb-3 mx-auto mb-4 BorderRadius" id="banner1">
+	<div class=" mx-auto  text-center ">
+		<img src="./img/upwork1.png" class="justify-content-center img-fluid BorderRadius">	
+	</div>
+
+	<div class="col-md-4 text-center">
+		<h4 class="text-center" id="experience">Data Miner/ Marketer</h4>
+		<p class="text-justify " id="experience1">
+		My past experience data mine/marketer. I worked here for 2 years and as a data miner, clients provide lots of lists every week, where we are collecting email adresses of each of the list. When done, we send the file back to the client
+
+	</p>	
+	</div>
+
+	<div class="col-md-4 text-center p-2">
+		<img src="./img/upwork3.png" class="img-fluid BorderRadius">	
+	</div>
+	</div>
+</div>
+<div class="text-center">
+<button class="btn btn-info  my-4 my-sm-0 "><a href="#top"><h4 id="other">Back to Top</h4></a></button></div>
+
+
+
+
 	
 
 
-<footer class="text-center d-flex flex-column justify-content-center mx-auto mt-5 text-wrap" id="footerB">
+<footer class="text-center d-flex flex-column justify-content-center mx-auto mt-1 text-wrap text-white" id="footerB">
 	<span>Dean Rodel Legada</span>
-	<span>&#169;All Rights Reserved 2021
+	<span>&#169;All Rights Reserved 2022
 </span>
 </footer>
 

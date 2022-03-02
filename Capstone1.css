@@ -1,9 +1,26 @@
 #home1{
 	background-image: url(./img/home.jpg);
 }
+#h2{
+	font-family: algerian;
+}
+.h3{
+	color: #05204A;
+	font-family: algerian;
+}
+.fonts{
+	font-family: arial black;
+}
+#h3{
+	font-family: calibri;
+}
 
 #home2{
-	background-image: url(./img/body.jpg);
+	background-image: url(./img/home.jpg);
+}
+
+#bgcolor{
+	background-color: #95F2D9;
 }
 
 #banner{
@@ -12,7 +29,7 @@
 background-position: center;
 }
 #banner1{
-	background-color: #C8EAF5;
+	background-color: #23C9FF;
 	}
 #imghome{
 	width: 250px;
@@ -33,13 +50,54 @@ background-position: center;
 
 #experience{
 	color: #033F63;
+
 }
+#experience1{
+	font-size: 16px;
+	font-family: calibri dark;
+}
+
 #footerB{
 	width: 100%;
-	background-color: #00A6FB; 
+	background-color: #0A014F; 
 	height: 50px;
 }
 
+
+
+#rect {
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: #03CEA4;
+    }
+    20% {
+      background-color: #5E2BFF;
+    }
+    40% {
+      background-color: #E40066;
+    }
+    60% {
+      background-color: #C04CFD;
+    }
+     80% {
+      background-color: #345995;
+    } 
+    100% {
+      background-color: #5E2BFF;
+    }
+}
+.borders{
+	border-radius: 10px;
+}
+
+.BorderRadius{
+	border-radius: 20px;
+}
 
 .hr{
 	background-color: white;
@@ -47,6 +105,7 @@ background-position: center;
 
 .hr1{
 	background-color: #A9F72A;
+	height: 5px;
 }
 
 .fab{
@@ -56,4 +115,40 @@ background-position: center;
 
 .gallerybody{
 	background-color: #9B91F2;
+	
+
+}
+
+
+.balls {
+  border-radius: 50%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  animation-name: bounce;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#ball1 {
+  left:27%;
+
+}
+#ball2 {
+  left:56%;
+
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 249px;
+  }
 }
